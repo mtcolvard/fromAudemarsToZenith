@@ -12,7 +12,7 @@ const ImageArray = ({ imageObject }) => {
       <div className="content "
         key={i}
       >
-        <div className="text-base mt-4 md:m-0 md:pt-4">
+        <div className="text-base mt-4 md:m-0 md:pt-0">
           <div className="pictureCaptionMobile text-sm md:hidden mb-6">
             <div><span className="italic">{image.title}</span></div>
             <div>{image.size}{image.material}</div>
@@ -81,3 +81,4 @@ const ImageArray = ({ imageObject }) => {
   )
 }
 export default ImageArray;
+

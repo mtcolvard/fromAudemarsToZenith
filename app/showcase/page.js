@@ -8,116 +8,307 @@ import Link from 'next/link'
 import Navigation from '../components/navigation.js'
 import ImageArray from '../components/images-array.js'
 
-import sacrifice_main_torso_three_quarters from '../../public/Webp_images/sacrifice/sacrifice_main_torso_three_quarters.webp'
-import sacrifice_full from '../../public/Webp_images/sacrifice/sacrifice_full.webp'
-import sacrifice_back_torso from '../../public/Webp_images/sacrifice/sacrifice_back_torso.webp'
-import sacrifice_full_three_quarters from '../../public/Webp_images/sacrifice/sacrifice_full_three_quarters.webp'
-import sacrifice_torso from '../../public/Webp_images/sacrifice/sacrifice_torso.webp'
-import sacrifice_back from '../../public/Webp_images/sacrifice/sacrifice_back.webp'
-
-
-
-
-
-
-
-
-
-
+import IMG_3333 from '../../public/webp/IMG_3333.webp'
+import IMG_4444 from '../../public/webp/IMG_4444.webp'
+import IMG_5555 from '../../public/webp/IMG_5555.webp'
+import IMG_1111 from '../../public/webp/IMG_1111.webp'
+import IMG_0884 from '../../public/webp/IMG_0884.webp'
+import IMG_0915 from '../../public/webp/IMG_0915.webp'
+import IMG_0980 from '../../public/webp/IMG_0980.webp'
+import IMG_1030 from '../../public/webp/IMG_1030.webp'
+import IMG_1031 from '../../public/webp/IMG_1031.webp'
+import IMG_1138 from '../../public/webp/IMG_1138.webp'
+import IMG_1162 from '../../public/webp/IMG_1162.webp'
+import IMG_1168 from '../../public/webp/IMG_1168.webp'
+import IMG_1173 from '../../public/webp/IMG_1173.webp'
+import IMG_1243 from '../../public/webp/IMG_1243.webp'
+import IMG_1248 from '../../public/webp/IMG_1248.webp'
+import IMG_1255 from '../../public/webp/IMG_1255.webp'
+import IMG_1277 from '../../public/webp/IMG_1277.webp'
+import IMG_1294 from '../../public/webp/IMG_1294.webp'
+import IMG_1295 from '../../public/webp/IMG_1295.webp'
+import IMG_1343 from '../../public/webp/IMG_1343.webp' 
 
 
 const Sacrifice = () => {
   const imageObject = [
     {
-      link: "",
-      src: sacrifice_back_torso,
-      alt: "",
-      title: 'Sacrifice,',
+      link: '',
+      src: IMG_3333,
+
+      alt: '',
+      title: '',
       details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'medium',
       width: '100%',
-      imageFoldernumber: 3,
+      imageFoldernumber: '',
     },
+    
     {
-      link: "",
-      src: sacrifice_back,
-      alt: "",
-      title: ', ',
-      details: ', ',
-      material: '',
-      size: '',
-      style: 'regular',
-      width: '100%',
-      imageFoldernumber: 4,
-    },
-    {
-      link: "",
-      src: sacrifice_main_torso_three_quarters,
-      alt: "",
+      link: '',
+      src: IMG_4444,
+
+      alt: '',
       title: '',
-      details: ', ',
+      details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'medium',
       width: '100%',
-      imageFoldernumber: 1,
+      imageFoldernumber: '',
     },
+    
     {
-      link: "",
-      src: sacrifice_full,
-      alt: "",
+      link: '',
+      src: IMG_5555,
+
+      alt: '',
       title: '',
-      details: ', ',
+      details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'medium',
       width: '100%',
-      imageFoldernumber: 5,
+      imageFoldernumber: '',
     },
+    
     {
-      link: "",
-      src: sacrifice_torso,
-      alt: "",
+      link: '',
+      src: IMG_1111,
+
+      alt: '',
       title: '',
-      details: ', ',
+      details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'medium',
       width: '100%',
-      imageFoldernumber: 2,
+      imageFoldernumber: '',
     },
+    
     {
-      link: "",
-      src: sacrifice_full_three_quarters,
-      alt: "",
+      link: '',
+      src: IMG_0915,
+
+      alt: '',
       title: '',
-      details: ', ',
+      details: '',
       material: '',
       size: '',
-      style: 'regular',
+      style: 'medium',
       width: '100%',
-      imageFoldernumber: 6,
+      imageFoldernumber: '',
     },
+    
+    {
+      link: '',
+      src: IMG_0980,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1030,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1031,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1138,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1162,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1168,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1173,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1243,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1248,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1255,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1277,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1294,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1295,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
+    {
+      link: '',
+      src: IMG_1343,
+
+      alt: '',
+      title: '',
+      details: '',
+      material: '',
+      size: '',
+      style: 'medium',
+      width: '100%',
+      imageFoldernumber: '',
+    },
+    
 
   ]
 
   return (
-    <div className="bg-transparent">
+    <div className="bg-white">
       <Head>
-        <title>Gabriella Furno</title>
+        <title>From Audemars to Zenith</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-24 bg-white text-black">
-        {/* <Navbar /> */}
-        {/* <Header /> */}
-        <div className="">
-          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg> */}
-        </div>
+      <div className="site min-h-screen flex flex-col pt-4 px-4 md:pt-1 bg-white text-black">
         <main className="flex-[1_0_auto] px-2.5 md:px-8 text-sm md:text-3xl">
           <div className="leadImageContainer">
             <div className="featured md:px-52">
@@ -127,7 +318,6 @@ const Sacrifice = () => {
           <div className="content md:px-52 ">
             <ImageArray imageObject={imageObject.slice(1)} />
           </div>
-          {/* <Footer /> */}
         </main>
       </div>
     </div>
